@@ -14,3 +14,5 @@
 
 + A more detailed error messages when the build fail
 + Support for deployment if enabled.
++ Add a timeout in case of an error
++ Pass credentials using environment variable
