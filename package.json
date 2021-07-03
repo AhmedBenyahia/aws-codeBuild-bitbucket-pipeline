@@ -1,0 +1,15 @@
+{
+  "name": "codebuild-pipeline",
+  "version": "1.0.0",
+  "main": "codebuild.pipe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.939.0",
+    "node-uuid": "^1.4.8"
+  }
+}

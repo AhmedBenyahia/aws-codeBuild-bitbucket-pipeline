@@ -1,0 +1,9 @@
+image: node:10.15.0
+pipelines:
+  default:
+    - step:
+        script:
+          - npm uninstall  node-uuid@latest
+          - npm install  node-uuid@latest
+          - npm install aws-sdk
+          - node codebuild.pipe.js
