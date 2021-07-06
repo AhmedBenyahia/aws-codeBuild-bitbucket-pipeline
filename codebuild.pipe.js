@@ -11,7 +11,7 @@ async function run() {
 
     codebuild.startBuild(
         params = {
-            projectName: "< Put Your Code Build Project Name Here>"
+            projectName: 'dqlick_ltm_backend'
         }, (err, data) => {
             if (err) {
                 console.log(err, err.stack);
